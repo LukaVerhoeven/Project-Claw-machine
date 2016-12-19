@@ -12,6 +12,7 @@ import os
 from serial import Serial
 import httplib
 from httplib import IncompleteRead
+import requests
 
 # Pretty console colours
 class bcolors:
@@ -25,7 +26,7 @@ class bcolors:
     UNDERLINE = '\033[4m'
 
 # Variables
-availableArduino = True # Debugging without an Arduino
+availableArduino = False # Debugging without an Arduino
 testSerial = False # Debugging without Twitter connection
 arduinoPort = 'COM3' # USB port address for the Arduino
 arduinoBaud = '9600' # Baud for serial communication
@@ -79,9 +80,8 @@ else:
         for item in r.get_iterator():
             if 'text' in item:
                 print item['user']['screen_name'].encode('utf-8') + ' tweeted: ' + item['text'].encode('utf-8')# Print screen name and the tweet text
-
                 # It is possible to check the tweets for further commands using regular expressions to send multiple commands to the Arduino
-
+                requests.post("http://claw-site.local/", data={'secret': 'F01FmbKPCk', 'twitterName' : item['user']['screen_name'].encode('utf-8')})
                 if availableArduino:
                     print "Activating claw machine"
                     ser.write(bytes(1)) # The command is a simple byte intepretation of the integer 1
