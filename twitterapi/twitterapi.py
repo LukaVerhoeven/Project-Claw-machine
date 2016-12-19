@@ -81,7 +81,10 @@ else:
             if 'text' in item:
                 print item['user']['screen_name'].encode('utf-8') + ' tweeted: ' + item['text'].encode('utf-8')# Print screen name and the tweet text
                 # It is possible to check the tweets for further commands using regular expressions to send multiple commands to the Arduino
-                requests.post("http://claw-site.local/", data={'secret': 'F01FmbKPCk', 'twitterName' : item['user']['screen_name'].encode('utf-8')})
+                r = requests.post("http://claw-site.local/api/postuser", data={'secret': 'F01FmbKPCk', 'twitterName' : item['user']['screen_name'].encode('utf-8')})
+                file = open("newfile.html", "w")
+                file.write(r.text)
+                file.close()
                 if availableArduino:
                     print "Activating claw machine"
                     ser.write(bytes(1)) # The command is a simple byte intepretation of the integer 1

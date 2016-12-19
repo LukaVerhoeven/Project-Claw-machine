@@ -12,7 +12,6 @@ class ApiController extends Controller
 
         if($request->secret != null && $request->twitterName != null && $request->secret == $secret){
             $twitterName = $request->twitterName;
-
             $user = Tweeter::where('twitterName', $twitterName)->first();
 
             if(count($user) == 0){
