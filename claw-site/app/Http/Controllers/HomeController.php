@@ -11,7 +11,7 @@ class HomeController extends Controller
 
         $lastUsers = Tweeter::orderBy('created_at', 'desc')->paginate(20);
 
-        return view('welcome', [
+        return view('onepage', [
             'lastUsers' => $lastUsers
         ]);
 
