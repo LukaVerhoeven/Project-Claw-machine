@@ -33,7 +33,7 @@
                     <h3 class="text-center mg-lg tc-white">FEED-BY-TWEET MACHINE <span
                             data-typer-targets="#TomEnCoGift,#DeWarmsteWeek"></span></h3>
 
-                    <p class="text-center  mg-lg animated fadeInUp animDelay02">
+                    <p class="text-center bigger-text mg-lg animated fadeInUp animDelay02">
                         De feed-by-tweet machine is een actie in samenwerking met Tom&Co die De Warmste Week steunt.
                         We plaatsten onze feed-by-tweet machine aan de ingang van het Tom&Co filiaal te Wilrijk. Hierbij was het de bedoeling dat met een tweet stuurde met de hashtag:
                         <strong>#TomEnCoGift</strong>. Wanneer men dit deed werd er een 'claw-machine' geactiveerd die voor uw trouwe viervoeter enkele snoepjes cadeau gaf.
