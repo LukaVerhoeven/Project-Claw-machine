@@ -17,13 +17,13 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 
 .mfl {
-	width: 200px;
-	height: auto;
+	height: 230px;
+	width: auto;
 }
 
 .tec {
-	width: 221px;
-	height: auto;
+	height: 230px;
+	width: auto;
 }
 
 .icon-xl::before {
