@@ -54,7 +54,7 @@
         <div class="container bloc-lg">
             <div class="row">
                 <div class="col-sm-12">
-                    <h3 class="text-center mg-lg">Filmpje</h3>
+                    <h3 class="text-center mg-lg">De Feed-by-Tweet machine in actie!</h3>
 
                 </div>
             </div>
