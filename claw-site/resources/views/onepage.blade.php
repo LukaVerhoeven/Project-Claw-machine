@@ -40,7 +40,12 @@
                         Mensen konden ook vrijblijvend een bijdrage leveren voor De Warmste Week.
                     </p>
 
+
                 </div>
+                <div class="iframe">
+                    <iframe src="https://player.vimeo.com/video/198680071" class="center" display="block" margin="0 auto" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+
             </div>
         </div>
     </div>

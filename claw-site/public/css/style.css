@@ -544,7 +544,11 @@ a[data-lightbox]:hover img{
 .top-buffer {
 	margin-top: 65px;
 }
+.iframe {
+	display: block;
+	text-align: center;
 
+}
 .smaller {
 	width: 50%;
 	height: auto;
