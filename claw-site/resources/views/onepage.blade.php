@@ -50,7 +50,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <h1 class="text-center mg-lg">Laatste 5 bijdragers:</h1>
-                    <ul class="rolldown-list" id="myList">
+                    <ul class="rolldown-list animated" id="myList">
                         @foreach($lastUsers as $user)
                             <li class="tc-white">&#64;{{$user->twitterName}}</li>
                         @endforeach
@@ -91,7 +91,7 @@
 
             <div class="row voffset-lg top-buffer">
                 <div class="col-sm-6 top-buffer">
-                    
+
                 </div>
             </div>
 
