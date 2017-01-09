@@ -515,21 +515,39 @@ a[data-lightbox]:hover img{
 .bgc-carmine-pink{
 	background-color:#F35342;
 }
+.bgc-blue{
+	background-color:rgba(33, 147, 166, 0.5);
+}
 .bgc-outer-space{
 	background-color:#47454B;
 }
-.bgc-white{
-	background-color:#ffffff;
+.bgc-lightblue{
+	background-color: #2193A6;
 }
-.bgc-platinum{
-	background-color:#E5E5E5;
+.bgc-grey{
+	background-color:#EEEEEE;
 }
 /* Text colour styles */
 
 .tc-white{
 	color:#ffffff!important;
 }
+.tc-black {
+	color:#000!important;
+}
+.tc-darkgrey {
+	color:rgba(0,0,0,.7)!important;
+}
 /* Button colour styles */
+.top-buffer {
+	margin-top: 65px;
+}
+
+.smaller {
+	width: 50%;
+	height: auto;
+	margin-bottom: 50px;
+}
 
 .wire-btn-carmine-pink{
 	color:#F35342!important;
