@@ -43,7 +43,7 @@
 
                 </div>
                 <div class="iframe">
-                    <iframe src="https://player.vimeo.com/video/198680071" class="center" display="block" margin="0 auto" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <iframe src="https://player.vimeo.com/video/198717627" class="center" display="block" margin="0 auto" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
 
             </div>
@@ -70,13 +70,13 @@
             <div class="row">
                 <div class="col-sm-12">
                     <h1 class="text-center mg-md ">
-                        The project
+                        Het project
                     </h1>
                 </div>
             </div>
             <div class="row voffset-lg">
                 <div class="col-sm-6">
-                    <img src="img/feedbytweetmachine.png" class="creator img-responsive animDelay04 animated zoomIn" alt="feed by tweet machine"/>
+                    <img src="img/feedbytweetmachine.png" class="creator img-responsive animated zoomIn" alt="feed by tweet machine"/>
                 </div>
                 <div class="col-sm-6 top-buffer">
                     <p class="bigger-text">De fysieke wereld linken met de virtuele wereld. Dat was onze missie. Waarom dit niet combineren met geld inzamelen voor een goed doel?</p>
@@ -85,12 +85,12 @@
             </div>
 
             <div class="row voffset-lg top-buffer">
-                <div class="col-sm-6">
-                    <img src="img/claw_machine_open.jpg" class="creator img-responsive animDelay04 animated zoomIn smaller" alt="feed by tweet machine open"/>
-                </div>
                 <div class="col-sm-6 top-buffer">
                     <p class="bigger-text">First things first. Het eerste obstakel was de machine openhalen en de bedrading tackelen. Na vele testjes 'hackten' we deze machine. Hierna werd een Arduino gebruikt om hier instructies naar te sturen.</p>
                     <p class="bigger-text">Iedereen die voorbij onze stand wandelde en graag een hondensnoepje voor hun trouwe viervoeter wou, kon een tweet sturen met de hashtag <strong>#TomEnCoGift</strong>. Een klein Python scriptje scande Twitter voor deze hashtag en stuurde de Arduino een signaal wanneer een nieuwe tweet ontvangen werd.</p>
+                </div>
+                <div class="col-sm-6">
+                    <img src="img/claw_machine_open.jpg" class="creator img-responsive animated zoomIn smaller" alt="feed by tweet machine open"/>
                 </div>
             </div>
 
@@ -102,37 +102,8 @@
 
         </div>
     </div>
-    <!-- team -->
-    <div class="bloc bgc-grey d-bloc" id="team">
-        <div class="container bloc-sm">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h1 class="text-center tc-darkgrey mg-md ">
-                        Team
-                    </h1>
-                </div>
-            </div>
-            <div class="row voffset-lg">
-                <div class="col-sm-6">
-                    <img src="img/luka.jpg" class="creator img-responsive animDelay04 animated zoomIn" alt="member"/>
 
-                    <h3 class="text-center tc-darkgrey mg-lg">
-                        Luka verhoeven
-                    </h3>
-                </div>
-                <div class="col-sm-6">
-                    <img src="img/joren.jpg" class="creator img-responsive animDelay06 animated zoomIn" alt="member"/>
-
-                    <h3 class="text-center tc-darkgrey mg-lg">
-                        Joren Van Hemelrijk
-                    </h3>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- team END -->
-
-    <div class="bloc l-bloc bgc-blue" id="services">
+    <div class="bloc l-bloc bgc-grey" id="services">
         <div class="container bloc-lg">
             <div class="row">
                 <h1 class="text-center mg-lg">In samenwerking met</h1>
@@ -164,6 +135,43 @@
         </div>
     </div>
 
+    <!-- team -->
+    <div class="bloc bgc-carmine-pink d-bloc" id="team">
+        <div class="container bloc-sm">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="text-center mg-md">
+                        Het Team
+                    </h1>
+                </div>
+            </div>
+            <div class="row voffset-lg">
+                <div class="col-sm-4">
+                    <img src="img/luka.jpg" class="creator img-responsive animDelay02 animated zoomIn" alt="member luka"/>
+
+                    <h3 class="text-center mg-lg">
+                        Luka verhoeven
+                    </h3>
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/lou.png" class="creator img-responsive animDelay06 animated zoomIn" alt="member lou"/>
+
+                    <h3 class="text-center mg-lg">
+                        'Lou'
+                    </h3>
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/joren.jpg" class="creator img-responsive animDelay04 animated zoomIn" alt="member joren"/>
+
+                    <h3 class="text-center mg-lg">
+                        Joren Van Hemelrijk
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- team END -->
+
     <!-- ScrollToTop Button -->
     <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
             class="fa fa-chevron-up"></span></a>
@@ -180,3 +188,4 @@
 <!-- Google Analytics END -->
 
 </html>
+

@@ -9,7 +9,7 @@ class HomeController extends Controller
 {
     public function index(){
 
-        $lastUsers = Tweeter::orderBy('created_at', 'desc')->paginate(10);
+        $lastUsers = Tweeter::orderBy('created_at', 'desc')->paginate(5);
 
         return view('onepage', [
             'lastUsers' => $lastUsers
