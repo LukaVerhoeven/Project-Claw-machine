@@ -188,6 +188,10 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	margin-top:80px;
 }
 
+.text-left {
+	text-align: left;
+}
+
 /* Bloc text custom styling */
 #header {
 	min-height: 100vh;

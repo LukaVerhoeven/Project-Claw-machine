@@ -2,8 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="bootstrap theme, bootstrap template, html5 theme">
-    <meta name="description" content="Free Bootstrap template based on HTML5 and CSS3">
+    <meta name="description" content="Feed-by-Tweet machine in samenwerking met Tom & Co en de Warmste Week">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -88,8 +87,8 @@
 
             <div class="row voffset-lg">
                 <div class="col-sm-6">
-                    <p class="bigger-text">First things first. We hebben de snoepjesgrijper eerst opengemaakt en de bedrading getackeld. Na vele testjes 'hackten' we de machine. Hierna werd een Arduino gebruikt om er instructies naar te sturen.</p>
-                    <p class="bigger-text">Iedereen die voorbij onze stand wandelde en graag wat hondensnoepjes wilde voor hun trouwe viervoeter, kon deze verkrijgen door het sturen van een tweet met de hashtag <strong>#TomEnCoGift</strong>. Een klein Python scriptje scande Twitter voor deze hashtag en stuurde de Arduino een signaal wanneer een nieuwe tweet ontvangen werd.  Dan werd de grijpmachine geactiveerd.  De hond was blij met de snoepjes en het baasje meestal gul met de bijdrage achteraf.</p>
+                    <p class="bigger-text text-left">First things first. We hebben de snoepjesgrijper eerst opengemaakt en de bedrading getackeld. Na vele testjes 'hackten' we de machine. Hierna werd een Arduino gebruikt om er instructies naar te sturen.</p>
+                    <p class="bigger-text text-left">Iedereen die voorbij onze stand wandelde en graag wat hondensnoepjes wilde voor hun trouwe viervoeter, kon deze verkrijgen door het sturen van een tweet met de hashtag <strong>#TomEnCoGift</strong>. Een klein Python scriptje scande Twitter voor deze hashtag en stuurde de Arduino een signaal wanneer een nieuwe tweet ontvangen werd.  Dan werd de grijpmachine geactiveerd.  De hond was blij met de snoepjes en het baasje meestal gul met de bijdrage achteraf.</p>
                 </div>
                 <div class="col-sm-6">
                     <img src="img/claw_machine_open.jpg" class="creator img-responsive animated zoomIn smaller" alt="feed by tweet machine open"/>
@@ -185,9 +184,7 @@
 <script src="/js/list.js"></script>
 </body>
 
-<!-- Google Analytics -->
 
-<!-- Google Analytics END -->
 
 </html>
 
