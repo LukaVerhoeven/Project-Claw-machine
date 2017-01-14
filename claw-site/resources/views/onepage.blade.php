@@ -34,10 +34,11 @@
                             data-typer-targets="#TomEnCoGift,#DeWarmsteWeek"></span></h3>
 
                     <p class="text-center bigger-text mg-lg animated fadeInUp animDelay02">
-                        De feed-by-tweet machine is een actie in samenwerking met Tom&Co die De Warmste Week steunt.
-                        We plaatsten onze feed-by-tweet machine aan de ingang van het Tom&Co filiaal te Wilrijk. Hierbij was het de bedoeling dat met een tweet stuurde met de hashtag:
-                        <strong>#TomEnCoGift</strong>. Wanneer men dit deed werd er een 'claw-machine' geactiveerd die voor uw trouwe viervoeter enkele snoepjes cadeau gaf.
-                        Mensen konden ook vrijblijvend een bijdrage leveren voor De Warmste Week.
+                        De Feed-by-Tweet machine werd gelanceerd in samenwerking met Tom & Co ter ondersteuning van de 'Warmste Week'.
+                        We plaatsten onze Feed-by-Tweet machine aan de ingang van het Tom & Co filiaal te Wilrijk.
+                        Wanneer klanten een tweet stuurden met de hashtag <strong>#TomEnCoGift</strong> werd onze grijpmachine geactiveerd.
+                        Deze ving dan gratis hondensnoepjes voor hun viervoeter.
+                        Daarnaast was het de bedoeling klanten te motiveren om een bijdrage te schenken voor het project Scaledogs vzw tijdens de Warmste Week.
                     </p>
 
 
@@ -76,18 +77,19 @@
             </div>
             <div class="row voffset-lg">
                 <div class="col-sm-6">
-                    <img src="img/feedbytweetmachine.png" class="creator img-responsive animated zoomIn" alt="feed by tweet machine"/>
+                    <img src="img/feedbytweetmachine.png" class="creator img-responsive animated zoomIn top-buffer" alt="feed by tweet machine"/>
                 </div>
                 <div class="col-sm-6 top-buffer">
-                    <p class="bigger-text">De fysieke wereld linken met de virtuele wereld. Dat was onze missie. Waarom dit niet combineren met geld inzamelen voor een goed doel?</p>
-                    <p class="bigger-text">We stonden te popelen om deze kleine grijpmachine te gebruiken wat eigenlijk een mini snoepjesgrijper was.</p>
+                    <p class="bigger-text">De fysieke wereld linken met de virtuele wereld. Dat was onze opzet.
+                    We zouden het combineren met een inzamelactie voor een goed doel, met name het project Scaledogs: een vzw die zich inzet voor de opleiding van blindegeleidehonden.</p>
+                    <p class="bigger-text">We stonden te popelen om onze kleine grijpmachine, in feite een mini snoepjesgrijper hiervoor op een ludieke manier in te zetten.</p>
                 </div>
             </div>
 
-            <div class="row voffset-lg top-buffer">
-                <div class="col-sm-6 top-buffer">
-                    <p class="bigger-text">First things first. Het eerste obstakel was de machine openhalen en de bedrading tackelen. Na vele testjes 'hackten' we deze machine. Hierna werd een Arduino gebruikt om hier instructies naar te sturen.</p>
-                    <p class="bigger-text">Iedereen die voorbij onze stand wandelde en graag een hondensnoepje voor hun trouwe viervoeter wou, kon een tweet sturen met de hashtag <strong>#TomEnCoGift</strong>. Een klein Python scriptje scande Twitter voor deze hashtag en stuurde de Arduino een signaal wanneer een nieuwe tweet ontvangen werd.</p>
+            <div class="row voffset-lg">
+                <div class="col-sm-6">
+                    <p class="bigger-text">First things first. We hebben de snoepjesgrijper eerst opengemaakt en de bedrading getackeld. Na vele testjes 'hackten' we de machine. Hierna werd een Arduino gebruikt om er instructies naar te sturen.</p>
+                    <p class="bigger-text">Iedereen die voorbij onze stand wandelde en graag wat hondensnoepjes wilde voor hun trouwe viervoeter, kon deze verkrijgen door het sturen van een tweet met de hashtag <strong>#TomEnCoGift</strong>. Een klein Python scriptje scande Twitter voor deze hashtag en stuurde de Arduino een signaal wanneer een nieuwe tweet ontvangen werd.  Dan werd de grijpmachine geactiveerd.  De hond was blij met de snoepjes en het baasje meestal gul met de bijdrage achteraf.</p>
                 </div>
                 <div class="col-sm-6">
                     <img src="img/claw_machine_open.jpg" class="creator img-responsive animated zoomIn smaller" alt="feed by tweet machine open"/>
