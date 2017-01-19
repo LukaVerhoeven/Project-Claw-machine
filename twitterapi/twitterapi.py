@@ -26,7 +26,7 @@ class bcolors:
     UNDERLINE = '\033[4m'
 
 # Variables
-availableArduino = False # Debugging without an Arduino
+availableArduino = True # Debugging without an Arduino (must be True for twitter)
 testSerial = False # Debugging without Twitter connection
 arduinoPort = 'COM3' # USB port address for the Arduino
 arduinoBaud = '9600' # Baud for serial communication
@@ -81,10 +81,7 @@ else:
             if 'text' in item:
                 print item['user']['screen_name'].encode('utf-8') + ' tweeted: ' + item['text'].encode('utf-8')# Print screen name and the tweet text
                 # It is possible to check the tweets for further commands using regular expressions to send multiple commands to the Arduino
-                r = requests.post("http://claw-site.local/api/postuser", data={'secret': 'F01FmbKPCk', 'twitterName' : item['user']['screen_name'].encode('utf-8')})
-                file = open("newfile.html", "w")
-                file.write(r.text)
-                file.close()
+                r = requests.post("http://lukaverhoevenmtantwerpeu.webhosting.be/api/postuser", data={'secret': 'F01FmbKPCk', 'twitterName' : item['user']['screen_name'].encode('utf-8')})
                 if availableArduino:
                     print "Activating claw machine"
                     ser.write(bytes(1)) # The command is a simple byte intepretation of the integer 1

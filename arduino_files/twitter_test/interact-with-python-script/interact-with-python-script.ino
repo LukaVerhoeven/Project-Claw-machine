@@ -103,10 +103,10 @@ void tweetReceived() {
    if(allowLoop) {
     allowLoop = false;
     goForward(3500);
-    goRight(5000);
-    goDown(4500);
-    goUp(4500);
-    goLeft(4800); //geen 5000 => gaat anders net iets te ver
+    goRight(6000);
+    goDown(3000);
+    goUp(3000);
+    goLeft(5900); //geen 6000 => gaat anders net iets te ver
     goBackwards(3300); //geen 3500 => gaat anders net iets te ver
     goDown(1000);
     goUp(1000);
